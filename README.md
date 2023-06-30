@@ -115,5 +115,4 @@ yanlış veriyordu bu kısmı düzeltemedim.
  KodOku sınıfında bir tane parametreli test yazdım bu test başarılıydı. KodTemizleme sınıfında 2 
 repeated, 1 entegrasyon, 2 faker , 1 parametreli ve 1 mockito nesnesi ile test yazdım bu 7 testte başarılı 
 çalışıyordu. OperatorBul sınıfında ise 2 mockito, 5 repeated, 3 faker , 1 unit, 7 parametreli , 2 entegrasyon 
-ve 1 tane parametreli entegrasyon testi yazdım. Bu testlerden 1’i başarısız oldu. Bun işlem ogrenci 
-dosyasındaki operand sayısını bulma işlemiydi
+ve 1 tane parametreli entegrasyon testi yazdım. Bu testlerden sadece 1’i başarısız oldu. 
