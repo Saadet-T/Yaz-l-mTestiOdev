@@ -2,7 +2,8 @@
 Nisan 2023 Yazılım Testi Odev
 İlk sayfada bulunan deneme.java OkumaTest.java gibi dosyalar test için kullanilabilecek java dosyalarıdır. Ana ödev java dosyaları değildir .
 
-1. Yazılımın Geliştirilme Amacı 
+1. Yazılımın Geliştirilme Amacı
+
 Bu yazılımın geliştirilme amacı bir projedeki operandların ve fonksiyonların analizinin oluşturulan 
 bir kütüphane yardımıyla ekstra kod yazılmasına ihtiyaç duymadan yapılabilmesini sağlamak ve bu 
 kütüphanenin birim ve entegrasyon testlerini gerçekleştirmektir.
