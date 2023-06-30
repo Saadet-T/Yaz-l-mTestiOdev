@@ -9,6 +9,7 @@ bir kütüphane yardımıyla ekstra kod yazılmasına ihtiyaç duymadan yapılab
 kütüphanenin birim ve entegrasyon testlerini gerçekleştirmektir.
 
 2.Yazılımın Geliştirilmesi 
+
 Ödeve öncelikle üç ayrı sınıf oluşturarak başladım. Bu sınıflara; KodOku, KodTemizleme ve 
 OperatorBul isimlerini verdim. 
 
@@ -21,6 +22,7 @@ dönüştürüyor. KodOku sınıfında dosya okuma fonksiyonu şu şekilde gerç
 KodOku sınıfı aldığı dosya yolunu Scanner kullanarak okuyor ve her satır sonrasına \n ile bir newline 
 ekliyor (Kod Temizleme sınıfını anlatırken açıklayacağım) ve okuduğu veriyi döndürüyor. 
 KodTemizleme: 
+
 KodTemizleme sınıfı yorumSil adlı bir fonksiyona sahip bu sınıf /* ifadesi ile */ ifadesi arasında 
 bulunan bütün karakterleri ve // ifadesinden sonra satır sonuna kadar bulunan bütün ifadeleri kod 
 dosyası içinden kaldırıyor. KodOku sınıfında her satırın sonuna \n eklememizin nedeni burada ortaya 
@@ -32,6 +34,7 @@ KodTemizleme sınıfındaki yorum silme işlemi ise şu şekilde çağırılıyo
 ![image](https://github.com/Saadet-T/YazilimTestiOdev-Junit/assets/68515706/b8c24f2c-46b3-48f8-bb31-f259ad55a889)
 
 OperatorBul: 
+
 OperatorBul sınıfında regex ifadelerini tanımladım bu bölümde regex ifadelerini sayımlarda daha 
 kolay hale gelecek şekilde ayarladım. regexMantiksal değişkeninde || , && ve ! işaretini içeren bütün 
 parçaları seçen bir regex ifadesi yazdım bu durumda bu ifade != işaretini içeren parçayı da seçeceği 
@@ -49,7 +52,9 @@ sınıfının örnek kullanımı verilmiştir;
 
 Bu kısımda bittikten sonra yazılımı direk düzenlemek yerine testlerini yazmaya başladım böylelikle 
 testlerde hata aldıkça yazılımda sıkıntı çıkaran bölümleri bilecek ve orada test edecektim. 
+
 3.Yazılımın test edilmesi. 
+
 Öncelikle JUnit birim testleriyle başlayacaktım ama mantığını ve kullanım nedenini bilsem de test 
 yazarken sorun yaşamamak için SABİS üzerinde paylaşılmış youtube videosunu izledim. Ardından 
 KodTemizleme sınıfı için birim testi(bu sonradan mock nesnesi kullanılan bir teste döndü) yazmaya 
@@ -94,7 +99,8 @@ Bunların ardından entegrasyon testlerine başladım genel olarak kodTemizleme 
 entegrasyon testlerini gerçekledim. Bazı bölümlerde ise parametreli testleri entegrasyon testleri ile 
 birlikte yaptım. 
 
-4.Zorlanılan kısımlar. 
+4.Zorlanılan kısımlar;
+
 Ödevde en çok zorlandığım kısımlar yazılımı gerçekleme kısmıydı. Genel olarak yazılımı 
 gerçekledikten sonra testlere başladım ve testlere başladığımda regexleri sadece x>y , x=y gibi ifadeleri 
 eşleştirecek yani sadece değişkenlere arasındaki ifadeleri seçecek şekilde hazırladığımı fark ettim . Bu 
